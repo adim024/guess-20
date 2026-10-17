@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: antiquewhite;
+            flex: auto;
+            text-align: center;
+
+        }
+        .number{
+            font-size: 6rem;
+            width: 15rem;
+            height: 15rem;
+            border-radius: 50%;
+            background-color: antiquewhite;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .message, .score,.highscore{
+            font-size: 2rem;
+        }
+        input[type="number"]{
+            font-size: 2rem;
+            width: 10rem;
+            height: 3rem;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Guess My Number</h1>
+    <p class="message">Start Guessing??</p>
+    <div class="number">?</div>
+    <input type="number" class="guess" />
+    <button class="check">Check</button>
+    <button class="again">Again</button>
+    <p class="score">Score: <span class="score-value">0</span>
+      <p class="score">HighScore: <span class="score-value">20</span>   
+        
+    <script src="jg.js"></script>
+</body>
+</html>
